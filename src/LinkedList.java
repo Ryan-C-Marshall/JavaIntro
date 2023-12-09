@@ -5,7 +5,7 @@ public class LinkedList<E> implements SinglyLinkedList<E> {
 
     public LinkedList(E initialData) {
         head = new Node<>(initialData, null);
-        length = 10;
+        length = 1;
     }
 
     public LinkedList() {
