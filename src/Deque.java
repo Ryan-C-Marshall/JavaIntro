@@ -7,9 +7,6 @@ public class Deque<E> implements DequeInterface<E> {
         length = 0;
     }
 
-    // this is a new comment
-
-
     @Override
     public void addFront(E data) {
         if (length == 0) {
